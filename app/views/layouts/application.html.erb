@@ -9,10 +9,17 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body id="main">
 
 
-<%= render "blox/navbar" %>
+
+
+  <%= render "blox/navbar" %>
+  <%= render "blox/jumbo" %>
+
+
+<%= render "blox/footer" %>
     <%= yield %>
+
   </body>
 </html>
