@@ -7,19 +7,17 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+
   </head>
 
   <body id="main">
 
-
-
-
   <%= render "blox/navbar" %>
-  <%= render "blox/jumbo" %>
 
-
-<%= render "blox/footer" %>
     <%= yield %>
-
+    <%= render "blox/footer" %>
+<script src="https://kit.fontawesome.com/8b41eb6f53.js" crossorigin="anonymous"></script>
   </body>
 </html>
